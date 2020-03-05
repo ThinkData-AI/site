@@ -216,45 +216,57 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
         </div>
       </div>
     </div>
+  </div>
+
+  <div class="w3-row-padding" id="about">
+    <div class="w3-center w3-padding-16">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Why US</span>
+    </div>
+
+<div class="w3-container w3-text-indigo">
+  <p>• Training from leading industry experienced practioners
+ • Live Support 24/7 • Live and fully hands-on training • Interactive session with interview QA’s • Real-time project review • Most competitive & affordable course fees</p>
+</div>  
+
 
 <!-- Contact -->
   <div class="w3-center w3-padding-64" id="faq">
     <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">FAQ</span>
   </div>
 
-    <div class="w3-section">
-      <p>1. Mode of delivery ?<br>
-      >  Classes will be live online sessions</p>
-    </div>
+<div class="w3-padding-16">
+<button onclick="myFunction('delivery')" class="w3-btn w3-block w3-light-green w3-left-align">Mode of delivery?</button>
+<div id="delivery" class="w3-container w3-hide w3-green">
+  Classes will be live online sessions
+</div>
 
-    <div class="w3-section">
-      <p>2. Timings of classes? </p>
-      >  Classes will be be scheduled on weekends between 10AM - 1PM</p>
-    </div>
+<button onclick="myFunction('class-schedule')" class="w3-btn w3-block w3-light-green w3-left-align">Timings of classes?</button>
+<div id="class-schedule" class="w3-container w3-hide w3-green">
+  Classes will be be scheduled on weekends between 10AM - 1PM
+</div>
 
-    <div class="w3-section">
-      <p>3. Fee Payment channels? </p>
-      >  Fees can be paid online</p>
-    </div>
+<button onclick="myFunction('fees')" class="w3-btn w3-block w3-light-green w3-left-align">Fee Payment channels?</button>
+<div id="fees" class="w3-container w3-hide w3-green">
+  Fees can be paid online
+</div>
 
-    <div class="w3-section">
-      <p>4. Discount for fees? </p>
-      >  We offer discounts for employees from CITI Bank, AMAZON, HCL, L&T and TCS </p>
-    </div>
+<button onclick="myFunction('discount')" class="w3-btn w3-block w3-light-green w3-left-align">Discount for fees?</button>
+<div id="discount" class="w3-container w3-hide w3-green">
+  We offer discounts for employees from CITI Bank, AMAZON, HCL, L&T and TCS. Mail us for more details from your corporate mail ID.
+</div>
 
-    <div class="w3-section">
-      <p>5. Corporate or College workshops? </p>
-      >  Reach us out over mail and we can work it out</p>
-    </div>
+<button onclick="myFunction('workshops')" class="w3-btn w3-block w3-light-green w3-left-align">Corporate or College workshops?</button>
+<div id="workshops" class="w3-container w3-hide w3-green">
+  Reach us out over mail and we will gladly help
+</div>
 
 </div>
 
 <!-- Footer -->
 
-<footer class="w3-container w3-padding-32 w3-light-grey w3-center">
-  <h4></h4>
+<footer class="w3-container w3-padding-16  w3-center">
   <a href="#" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-  <div class="w3-xlarge w3-section">
+  <div class="w3-large w3-section">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
     <i class="fa fa-instagram w3-hover-opacity"></i>
     <i class="fa fa-snapchat w3-hover-opacity"></i>
@@ -262,7 +274,6 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
     <i class="fa fa-twitter w3-hover-opacity"></i>
     <i class="fa fa-linkedin w3-hover-opacity"></i>
   </div>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
 </footer>
 
 
@@ -310,6 +321,14 @@ function carousel() {
   setTimeout(carousel, 4000); // Change image every 2 seconds
 }
 
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
 </script>
 
 </body>
