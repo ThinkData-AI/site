@@ -1,0 +1,335 @@
+
+<html>
+<title>Infinity.AI</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
+.mySlides {display:none}
+.w3-tag, .fa {cursor:pointer}
+.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-large w3-light-grey">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block">Home</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#courses" class="w3-button w3-block">Courses</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block">About Us</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#faq" class="w3-button w3-block">Faq</a>
+    </div>
+  </div>
+</div>
+
+<!-- Content -->
+<div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
+
+  <div class="w3-panel">
+    <h1><b>Infinity.AI</b></h1>
+    
+  </div>
+
+  <!-- Slideshow -->
+  <div class="w3-container">
+    <div class="w3-display-container mySlides">
+      <img src="./images/datascience.jpg" style="width:100%">
+      <div class="w3-display-topleft w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">Data Science</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="./images/deeplearning.jpg" style="width:100%">
+      <div class="w3-display-middle w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">Deep Learning</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="./images/bigdata.jpg" style="width:100%">
+      <div class="w3-display-topright w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">Big Data</span>
+      </div>
+    </div>
+
+    <!-- Slideshow next/previous buttons -->
+    <div class="w3-container w3-dark-grey w3-padding w3-xlarge">
+      <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
+      <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
+    
+      <div class="w3-center">
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Grid -->
+  <div class="w3-row w3-container">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-white w3-padding-16">How we Teach</span>
+    </div>
+    <div class	="w3-col l4 m6 w3-lime w3-container w3-padding-16">
+      <h3>Lectures</h3>
+      <p>Learn from the comfort of your drawing room and with over 50+ hours of teachings, you are assured to gain knowledge on all key concepts.</p>
+    </div>
+
+    <div class="w3-col l4 m6 w3-light-green w3-container w3-padding-16">
+      <h3>Assignments</h3>
+      <p>Apply your skills by practicing your learnings on simulated real world datasets and with assistance for your coding queries.</p>
+    </div>
+
+    <div class="w3-col l4 m6 w3-green w3-container w3-padding-16">
+      <h3>Quiz</h3>
+      <p>Assess your understanding on the subject, identify your strength and work harder on your gaps and this exercise is completely optional.</p>
+    </div>
+
+
+  </div>
+
+  <!-- Grid -->
+  <div class="w3-row-padding" id="courses">
+    <div class="w3-center w3-padding-64">
+      <h3 >Offerings</h3>
+      <p>Choose the topic you want to learn.</p>
+    </div>
+
+    <div class="w3-quarter w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-blue w3-xlarge w3-padding-32">Business Analytics</li>
+        <li class="w3-padding-16"><b>Statistics</b> & Probability</li>
+        <li class="w3-padding-16"><b>Linear Algebra</b> Basics</li>
+        <li class="w3-padding-16"><b>Excel</b> for Analytics</li>
+        <li class="w3-padding-16"><b>Tableau</b> Dashboards</li>
+        <li class="w3-padding-16"><b>Apache Spark</b> for Big Data</li>
+        <li class="w3-padding-16"><b>8</b> weeks</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">Rs 20000</h2>
+          <span class="w3-opacity">*All inclusive</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <form>
+          <button class="w3-button w3-green w3-padding-large" formaction="https://docs.google.com/forms/d/e/1FAIpQLSe2tb_IHoiX13pXathugVh3f-jcFf_SdegUuOCb0HKbTc8rtw/viewform?usp=pp_url">Sign Up</button>
+          </form>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-quarter w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-indigo w3-xlarge w3-padding-32">Data Science</li>
+        <li class="w3-padding-16"><b>Statistics</b> & Probability</li>
+        <li class="w3-padding-16"><b>Linear Algebra</b> Basics</li>
+        <li class="w3-padding-16"><b>Feature</b> Engineering</li>
+        <li class="w3-padding-16"><b>Regression</b> Techniques</li>
+        <li class="w3-padding-16"><b>R / Python</b> Language</li>
+        <li class="w3-padding-16"><b>8</b> weeks</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">Rs 20000</h2>
+          <span class="w3-opacity">*All inclusive</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <form>
+          <button class="w3-button w3-green w3-padding-large" formaction="https://docs.google.com/forms/d/e/1FAIpQLSe2tb_IHoiX13pXathugVh3f-jcFf_SdegUuOCb0HKbTc8rtw/viewform?usp=pp_url">Sign Up</button>
+          </form>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-quarter w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-deep-purple w3-xlarge w3-padding-32">AI & Deep Learning</li>
+        <li class="w3-padding-16"><b>Linear Algebra</b> Basics</li>
+        <li class="w3-padding-16">Multi Layer <b>Perceptrons</b> </li>
+        <li class="w3-padding-16"><b>CNN & RNN</b></li>
+        <li class="w3-padding-16"><b>LSTM</b></li>
+        <li class="w3-padding-16"><b>TensorFlow</b></li>
+        <li class="w3-padding-16"><b>8</b> weeks</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">Rs 20000</h2>
+          <span class="w3-opacity">*All inclusive</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <form>
+          <button class="w3-button w3-green w3-padding-large" formaction="https://docs.google.com/forms/d/e/1FAIpQLSe2tb_IHoiX13pXathugVh3f-jcFf_SdegUuOCb0HKbTc8rtw/viewform?usp=pp_url">Sign Up</button>
+          </form>
+        </li>
+      </ul>
+    </div>
+    
+   <div class="w3-quarter w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-purple w3-xlarge w3-padding-32">Data Visualization</li>
+        <li class="w3-padding-16"><b>SQL</b> Introduction</li>
+        <li class="w3-padding-16"><b>Excel</b> for Analytics</li>
+        <li class="w3-padding-16"><b>Associative </b> Data Modelling</li>
+        <li class="w3-padding-16"><b>Qlikview /Tableau </b> Dashboards</li>
+        <li class="w3-padding-16"><b>Storytelling</b> with Dashboards</li>
+        <li class="w3-padding-16"><b>8</b> weeks</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">Rs 20000</h2>
+          <span class="w3-opacity">*All inclusive</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <form>
+          <button class="w3-button w3-green w3-padding-large" formaction="https://docs.google.com/forms/d/e/1FAIpQLSe2tb_IHoiX13pXathugVh3f-jcFf_SdegUuOCb0HKbTc8rtw/viewform?usp=pp_url">Sign Up</button>
+          </form>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Grid -->
+  <div class="w3-row-padding" id="about">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Who We Are</span>
+    </div>
+
+    <div class="w3-half w3-margin-bottom">
+      <div class="w3-card-4">
+        <div class="w3-container">
+          <h3 class="w3-text-deep-orange">Infinity.AI</h3>
+          <p class="w3-opacity">Learning services</p>
+          <p>Infinity.AI Learning services is VRATHA's teaching arm, offering specialized courses on Data science, Machine learning and Artificial Intelligence.
+          Our Tutors are students from ISB Indian School of Business and are also leading Industry / domain experts.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class=" w3-half w3-margin-bottom">
+      <div class="w3-card-4">
+        <div class="w3-container">
+          <h3 class="w3-text-orange">Infinity.AI</h3>
+          <p class="w3-opacity">Project Management Services</p>
+          <p>At VRATHA's, Infinity.AI Project Management Services, we work on building applications systems using data science related technologies.
+          Currently, we are building cutting edge video upscaling services and automatic face detection for CCTV footage.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row-padding" id="about">
+    <div class="w3-center w3-padding-16">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Why US</span>
+    </div>
+
+<div class="w3-container w3-text-indigo">
+  <p>• Training from leading industry experienced practioners
+ • Live Support 24/7 • Live and fully hands-on training • Interactive session with interview QA’s • Real-time project review • Most competitive & affordable course fees</p>
+</div>  
+
+
+<!-- Contact -->
+  <div class="w3-center w3-padding-64" id="faq">
+    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">FAQ</span>
+  </div>
+
+<div class="w3-padding-16">
+<button onclick="myFunction('delivery')" class="w3-btn w3-block w3-light-green w3-left-align">Mode of delivery?</button>
+<div id="delivery" class="w3-container w3-hide w3-green">
+  Classes will be live online sessions
+</div>
+
+<button onclick="myFunction('class-schedule')" class="w3-btn w3-block w3-light-green w3-left-align">Timings of classes?</button>
+<div id="class-schedule" class="w3-container w3-hide w3-green">
+  Classes will be be scheduled on weekends between 10AM - 1PM
+</div>
+
+<button onclick="myFunction('fees')" class="w3-btn w3-block w3-light-green w3-left-align">Fee Payment channels?</button>
+<div id="fees" class="w3-container w3-hide w3-green">
+  Fees can be paid online
+</div>
+
+<button onclick="myFunction('discount')" class="w3-btn w3-block w3-light-green w3-left-align">Discount for fees?</button>
+<div id="discount" class="w3-container w3-hide w3-green">
+  We offer discounts for employees from CITI Bank, AMAZON, HCL, L&T and TCS. Mail us for more details from your corporate mail ID.
+</div>
+
+<button onclick="myFunction('workshops')" class="w3-btn w3-block w3-light-green w3-left-align">Corporate or College workshops?</button>
+<div id="workshops" class="w3-container w3-hide w3-green">
+  Reach us out over mail and we will gladly help
+</div>
+
+</div>
+
+<!-- Footer -->
+
+<footer class="w3-container w3-padding-16  w3-center">
+  <a href="#" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-large w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</footer>
+
+
+<script>
+// Slideshow
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demodots");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 4000); // Change image every 2 seconds
+}
+
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
