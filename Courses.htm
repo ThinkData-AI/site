@@ -11,29 +11,33 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 .mySlides {display:none}
 .w3-tag, .fa {cursor:pointer}
 .w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+
 </style>
 <body>
 
 <!-- Links (sit on top) -->
 <div class="w3-top">
   <div class="w3-row w3-large w3-light-grey">
-    <div class="w3-col s3">
+    <div class="w3-col s2">
       <a href="#" class="w3-button w3-block">Home</a>
     </div>
     <div class="w3-col s3">
       <a href="#courses" class="w3-button w3-block">Courses</a>
     </div>
-    <div class="w3-col s3">
+    <div class="w3-col s2">
       <a href="#about" class="w3-button w3-block">About Us</a>
     </div>
-    <div class="w3-col s3">
+    <div class="w3-col s2">
       <a href="#faqs" class="w3-button w3-block">FAQS</a>
+    </div>
+    <div class="w3-col s2">
+      <a href="#contact" class="w3-button w3-block">Contact</a>
     </div>
   </div>
 </div>
 
 <!-- Content -->
-<div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
+<div class="w3-content" style="max-width:1150px;margin-top:80px;margin-bottom:80px">
 
   <div class="w3-panel">
     <h1><b>ThinkData.ai</b></h1>
@@ -41,25 +45,29 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
   </div>
 
   <!-- Slideshow -->
-  <div class="w3-container">
+  <div class="w3-container w3-padding-64">
     <div class="w3-display-container mySlides">
       <img src="./images/Data-science.jpeg" style="width:100%">
-      <div class="w3-display-middle w3-container w3-padding-64"></div>
-      </div>
-    </div>
-    <div class="w3-display-container mySlides">
-      <img src="./images/Deep-Learning.jpeg" style="width:100%">
-      <div class="w3-display-middle w3-container w3-padding-64"></div>
+      <div class="w3-display-topright w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">Data Science</span>
       </div>
     </div>
     <div class="w3-display-container mySlides">
       <img src="./images/Big-Data.jpeg" style="width:100%">
-      <div class="w3-display-middle w3-container w3-padding-64"></div>
+      <div class="w3-display-topright w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">Big Data</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="./images/Deep-Learning.jpeg" style="width:100%">
+      <div class="w3-display-topright w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">Deep Learning</span>
       </div>
     </div>
 
+
     <!-- Slideshow next/previous buttons -->
-    <div class="w3-container w3-dark-grey w3-padding w3-xlarge">
+    <div class="w3-container w3-indigo w3-padding w3-xlarge">
       <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
       <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
     
@@ -106,12 +114,33 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
     <div class="w3-quarter w3-margin-bottom">
       <ul class="w3-ul w3-border w3-center w3-hover-shadow">
-        <li class="w3-blue w3-xlarge w3-padding-32">BUSINESS ANALYTICS</li>
-        <li class="w3-padding-16"><b>Statistics</b> & Probability</li>
-        <li class="w3-padding-16"><b>Linear Algebra</b> Basics</li>
+        <li class="w3-blue w3-xlarge w3-padding-32">DATA ANALYTICS</li>
+        <li class="w3-padding-16"><b>SQL</b> Introduction</li>
+        <li class="w3-padding-16"><b>R or PYTHON</b></li>
         <li class="w3-padding-16"><b>Excel</b> for Analytics</li>
         <li class="w3-padding-16"><b>Tableau</b> Dashboards</li>
-        <li class="w3-padding-16"><b>Apache Spark</b> for Big Data</li>
+        <li class="w3-padding-16"><b>Apache Spark SQL</b> for Big Data</li>
+        <li class="w3-padding-16"><b>8</b> weeks</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">Rs 20,000/-</h2>
+          <span class="w3-opacity">*All inclusive</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <form>
+          <button class="w3-button w3-green w3-padding-large" formaction="https://docs.google.com/forms/d/e/1FAIpQLSe2tb_IHoiX13pXathugVh3f-jcFf_SdegUuOCb0HKbTc8rtw/viewform?usp=pp_url">Sign Up</button>
+          </form>
+        </li>
+      </ul>
+    </div>
+
+   <div class="w3-quarter w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-indigo w3-xlarge w3-padding-32">VISUALIZATION</li>
+        <li class="w3-padding-16"><b>SQL</b> Introduction</li>
+        <li class="w3-padding-16"><b>Excel</b> for Analytics</li>
+        <li class="w3-padding-16"><b>Qlikview or Tableau</b></li>
+        <li class="w3-padding-16"><b>Associative </b> Data Modelling</li>
+        <li class="w3-padding-16"><b>Storytelling</b> using Dashboards</li>
         <li class="w3-padding-16"><b>8</b> weeks</li>
         <li class="w3-padding-16">
           <h2 class="w3-wide">Rs 20,000/-</h2>
@@ -127,12 +156,12 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
     <div class="w3-quarter w3-margin-bottom">
       <ul class="w3-ul w3-border w3-center w3-hover-shadow">
-        <li class="w3-indigo w3-xlarge w3-padding-32">DATA SCIENCE</li>
+        <li class="w3-deep-purple w3-xlarge w3-padding-32">DATA SCIENCE</li>
         <li class="w3-padding-16"><b>Statistics</b> & Probability</li>
         <li class="w3-padding-16"><b>Linear Algebra</b> Basics</li>
-        <li class="w3-padding-16"><b>Feature</b> Engineering</li>
-        <li class="w3-padding-16"><b>Regression</b> Techniques</li>
-        <li class="w3-padding-16"><b>R / Python</b> Language</li>
+        <li class="w3-padding-16"><b>R or PYTHON</b></li>
+        <li class="w3-padding-16"><b>Regression</b> Models</li>
+        <li class="w3-padding-16"><b>Apache Spark SQL</b> for Big Data</li>
         <li class="w3-padding-16"><b>8</b> weeks</li>
         <li class="w3-padding-16">
           <h2 class="w3-wide">Rs 20,000/-</h2>
@@ -148,7 +177,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
     <div class="w3-quarter w3-margin-bottom">
       <ul class="w3-ul w3-border w3-center w3-hover-shadow">
-        <li class="w3-deep-purple w3-xlarge w3-padding-32">AI & DEEP LEARNING</li>
+        <li class="w3-purple w3-xlarge w3-padding-32">DEEP LEARNING</li>
         <li class="w3-padding-16"><b>Linear Algebra</b> Basics</li>
         <li class="w3-padding-16">Multi Layer <b>Perceptrons</b> </li>
         <li class="w3-padding-16"><b>CNN & RNN</b></li>
@@ -166,27 +195,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
         </li>
       </ul>
     </div>
-    
-   <div class="w3-quarter w3-margin-bottom">
-      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
-        <li class="w3-purple w3-xlarge w3-padding-32">DATA VISUALIZATION</li>
-        <li class="w3-padding-16"><b>SQL</b> Introduction</li>
-        <li class="w3-padding-16"><b>Excel</b> for Analytics</li>
-        <li class="w3-padding-16"><b>Associative </b> Data Modelling</li>
-        <li class="w3-padding-16"><b>Qlikview /Tableau </b> Dashboards</li>
-        <li class="w3-padding-16"><b>Storytelling</b> with Dashboards</li>
-        <li class="w3-padding-16"><b>8</b> weeks</li>
-        <li class="w3-padding-16">
-          <h2 class="w3-wide">Rs 20,000/-</h2>
-          <span class="w3-opacity">*All inclusive</span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-          <form>
-          <button class="w3-button w3-green w3-padding-large" formaction="https://docs.google.com/forms/d/e/1FAIpQLSe2tb_IHoiX13pXathugVh3f-jcFf_SdegUuOCb0HKbTc8rtw/viewform?usp=pp_url">Sign Up</button>
-          </form>
-        </li>
-      </ul>
-    </div>
+ 
   </div>
 
   <!-- Grid -->
@@ -200,7 +209,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
         <div class="w3-container">
           <p class="w3-opacity">LEARNING SERVICES</p>
           <p>ThinkData.ai Learning services is our teaching arm offering specialized courses for professionals who are looking for career in Data science, Machine learning and Artificial Intelligence.
-          Our Tutors are leading Industry domain experts from reputed companies and students of ISB(Indian School of Business).</p>
+          Our Tutors are leading Industry domain experts from reputed companies and students of ISB (Indian School of Business).</p>
         </div>
       </div>
     </div>
@@ -208,9 +217,9 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
     <div class=" w3-half w3-margin-bottom">
       <div class="w3-card-4">
         <div class="w3-container">
-          <p class="w3-opacity">PROJECT MANAGEMENT SERVICES</p>
-          <p>Our Project management services arm works on building real-time applications using data science related technologies.
-          Currently, we are building Video analytical services capable of detecting faces in CCTV feeds and Machine translation services .</p>
+          <p class="w3-opacity">PRODUCT INNOVATION LAB</p>
+          <p>At our innovation lab, we strive to build cutting edge applications using data science related technologies.
+          Currently, our team of data science professionals  and machine learning engineers is involved in development of video upscaling models and video analytics on CCTV feeds. Write to us for more details.</p>
         </div>
       </div>
     </div>
@@ -222,14 +231,15 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
     </div>
 
 <div class="w3-container w3-center w3-text-indigo">
-  <p>✔ Training by Real Time Industry Experienced Practioners      ✔ 24/7 Live Support <br>
-     ✔ Fully Live and Hands-on Training                            ✔ Interactive Session with Interview QA’s <br>
-     ✔ Real-Time Project Scenarios                                 ✔ Most Competitive & Affordable Course Fees <br>
+  <p>
+     ✔ Training from Real Time Industry Experienced Practioners&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✔ 24/7 Live Support  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     ✔ Fully Live and Hands-on Training  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ✔ Interactive Session with Interview QA’s &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     ✔ Real-Time Project Scenarios &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ✔ Most Competitive & Affordable Course Fees <br>
   </p>
 </div>  
 
 
-<!-- Contact -->
+<!-- FAQS -->
   <div class="w3-center w3-padding-64" id="faqs">
     <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">FAQS</span>
     
@@ -254,8 +264,18 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
 <button onclick="myFunction('workshops')" class="w3-btn w3-block w3-light-green w3-left-align">Do you undertake any Corporate/ College workshops?</button>
 <div id="workshops" class="w3-container w3-hide w3-green">
-  We do offer workshops. Sign-up for any further details.
+  We do offer workshops. Write to us ThinkData.ai@outlook.com for further details.
 </div>
+
+
+  <!-- Contact -->
+  <div class="w3-center w3-padding-64" id="contact">
+    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Contact Us</span>
+  </div>
+
+  <form>
+  <button class="w3-btn w3-block w3-light-green w3-center-align" formaction="mailto:ThinkData.AI@example.com?Subject=Web%20Query">Mail Us</button>
+  </form>
 
 </div>
 
