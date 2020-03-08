@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>ThinkData.ai</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-indigo w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:250px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <a href="https://thinkdata-ai.github.io/site/Courses.htm" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white"><h3 class="w3-padding-64"><b>ThinkData.ai</b></h3></a>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#dataanalytics" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Data Analytics</a> 
+    <a href="#visualization" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Visualization</a> 
+    <a href="#datascience" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Data Science</a> 
+    <a href="#deeplearning" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Deep Learning</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span>ThinkData.ai</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:280px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 class="w3-xxxlarge w3-text-purple"><b>Course Syllabus</b></h1>
+    <hr style="width:50px;border:5px solid purple" class="w3-round">
+  </div>
+  
+  <!-- Services -->
+  <div class="w3-container" id="dataanalytics" style="margin-top:75px">
+    <h1 class="w3-xxlarge w3-text-blue"><b>Data Analytics</b></h1>
+    <hr style="width:50px;border:5px solid blue" class="w3-round">
+    <p>What we will cover</p>
+    <li class="w3-bar">
+      <div class="w3-bar-item">
+        <span class="w3-medium">Week 1 :</span><br>
+        <span class="w3-text-grey">RDBMS  <br>
+              DDL, DML  <br>
+              INDEXES,PARTITIONS <br>
+              JOINS   <br>
+              OLAP,OLTP  <br>
+        </span>
+      </div>
+      <div class="w3-bar-item">
+        <span class="w3-medium">Week 2 :</span><br>
+        <span class="w3-text-grey">Excel <br>
+              Pivots  <br>
+              Charts  <br>
+              Statistical Analysis  <br>
+              Advanced Stats Functions   <br>
+        </span>
+      </div>
+      <div class="w3-bar-item">
+        <span class="w3-medium">Week 3 : Py</span><br>
+        <span class="w3-text-grey">Python DataTypes<br>
+              Expressions & Variables  <br>
+              String Operations  <br>
+              List and Tuples  <br>
+              Sets and Dictionaries  <br>
+        </span>
+      </div>
+      <div class="w3-bar-item">
+        <span class="w3-medium">Week 3 : R</span><br>
+        <span class="w3-text-grey">R Datatypes <br>
+              Vectors, Lists <br>
+              Factors  <br>
+              Data frames<br>
+              Subsetting <br>
+        </span>
+      </div>
+      <div class="w3-bar-item">
+        <span class="w3-medium">Week 4 : Py </span><br>
+        <span class="w3-text-grey">Conditional execution <br>
+              Branching <br>
+              Pandas DataFrames  <br>
+              Functions  <br>
+              Objects,Classes  <br>
+        </span>
+      </div>
+      <div class="w3-bar-item">
+        <span class="w3-medium">Week 4 : R </span><br>
+        <span class="w3-text-grey">Control structures <br>
+              Conditional Statements <br>
+              Loops  <br>
+              Basic Plots<br>
+              ggPlot <br>
+        </span>
+      </div>
+      <div class="w3-bar-item">
+        <span class="w3-medium">Week 5 :</span><br>
+        <span class="w3-text-grey">Business Intelligence Tools <br>
+              Importing Data <br>
+              Data Modelling  <br>
+              Story Telling with Dashboards  <br>
+              Spatial Data Exploration  <br>
+        </span>
+      </div>
+      <div class="w3-bar-item">
+        <span class="w3-medium">Week 6 :</span><br>
+        <span class="w3-text-grey">Big Data Basics <br>
+              RDD <br>
+              Spark context  <br>
+              Actions and Transformations <br>
+              SPARK SQL <br>
+        </span>
+      </div>      
+    </li>
+  </div>
+  
+    <!-- Visualization -->
+  <div class="w3-container" id="visualization" style="margin-top:75px">
+    <h1 class="w3-xxlarge w3-text-indigo"><b>Visualization</b></h1>
+    <hr style="width:50px;border:5px solid indigo" class="w3-round">
+    <p>What we will cover</p>
+    <li class="w3-bar">
+      <div class="w3-bar-item">
+        <span class="w3-medium">Week 1 :</span><br>
+        <span class="w3-text-grey">RDBMS  <br>
+              DDL, DML  <br>
+              INDEXES,PARTITIONS <br>
+              JOINS   <br>
+              OLAP,OLTP  <br>
+        </span>
+      </div>
+      <div class="w3-bar-item">
+        <span class="w3-medium">Week 2 :</span><br>
+        <span class="w3-text-grey">Excel <br>
+              Pivots  <br>
+              Charts  <br>
+              Statistical Analysis  <br>
+              Advanced Stats Functions   <br>
+        </span>
+      </div>
+      <div class="w3-bar-item">
+        <span class="w3-medium">Week 3 : Py</span><br>
+        <span class="w3-text-grey">Python DataTypes<br>
+              Expressions & Variables  <br>
+              String Operations  <br>
+              List,Tuples  <br>
+              Sets and Dictionaries  <br>
+        </span>
+      </div>
+      <div class="w3-bar-item">
+        <span class="w3-medium">Week 3 : R</span><br>
+        <span class="w3-text-grey">R Datatypes <br>
+              Vectors, Lists <br>
+              Factors  <br>
+              Data frames<br>
+              Subsetting <br>
+        </span>
+      </div>
+      <div class="w3-bar-item">
+        <span class="w3-medium">Week 4 : Py </span><br>
+        <span class="w3-text-grey">Conditional execution <br>
+              Branching <br>
+              Pandas DataFrames  <br>
+              Functions  <br>
+              Objects,Classes  <br>
+        </span>
+      </div>
+      <div class="w3-bar-item">
+        <span class="w3-medium">Week 4 : R </span><br>
+        <span class="w3-text-grey">Control Structures <br>
+              Conditional Statements <br>
+              Loops  <br>
+              Basic Plots<br>
+              ggPlot <br>
+        </span>
+      </div>
+
+      <div class="w3-bar-item">
+        <span class="w3-medium">Week 5 :</span><br>
+        <span class="w3-text-grey">Business Intelligence Tools <br>
+              Importing Data <br>
+              ETL <br>
+              Data Modelling  <br>
+              Star, Snow Flake schema <br>
+        </span>
+      </div>
+      <div class="w3-bar-item">
+        <span class="w3-medium">Week 6 : Tableau</span><br>
+        <span class="w3-text-grey">Calculated Fields <br>
+              Charts <br>
+              Filters<br>
+              Spatial Plots <br>
+        </span>
+      </div>
+      <div class="w3-bar-item">
+        <span class="w3-medium">Week 6 : Qlikview</span><br>
+        <span class="w3-text-grey">Associative Data Modelling <br>
+              Set Expressions <br>
+              Charts  <br>
+              Section Access <br>
+        </span>
+      </div>
+    </li>
+  </div>
+  
+  <!-- datascience -->
+  <div class="w3-container" id="datascience" style="margin-top:75px">
+    <h1 class="w3-xxlarge w3-text-deep-purple"><b>Data Science</b></h1>
+    <hr style="width:50px;border:5px solid purple" class="w3-round">
+    <p>What we will cover</p>
+    <li class="w3-bar">
+      <div class="w3-bar-item">
+        <span class="w3-medium">Week 1 :</span><br>
+        <span class="w3-text-grey">Linear Algebra <br>
+              Matrices  <br>
+              Tensors  <br>
+              Calculus   <br>
+        </span>
+      </div>
+      <div class="w3-bar-item">
+        <span class="w3-medium">Week 2 :</span><br>
+        <span class="w3-text-grey">Probability <br>
+              Random Variables  <br>
+              Central Limit Theorem  <br>
+              Hypothesis Testing  <br>
+        </span>
+      </div>
+      <div class="w3-bar-item">
+        <span class="w3-medium">Week 3 : Py</span><br>
+        <span class="w3-text-grey">Conditional execution <br>
+              Branching <br>
+              Functions,Loops  <br>
+              Classes,Objects  <br>
+        </span>
+      </div>
+      <div class="w3-bar-item">
+        <span class="w3-medium">Week 3 : R</span><br>
+        <span class="w3-text-grey">R Datatypes <br>
+              Vectors, Lists <br>
+              Factors and Subsetting  <br>
+              Data frames<br>
+        </span>
+      </div>
+      <div class="w3-bar-item">
+        <span class="w3-medium">Week 4 : Py</span><br>
+        <span class="w3-text-grey">Pandas DataFrames <br>
+              Manipulating Files<br>
+              Numpy Arrays  <br>
+              MatplotLib  <br>
+        </span>
+      </div>
+      <div class="w3-bar-item">
+        <span class="w3-medium">Week 4 : R </span><br>
+        <span class="w3-text-grey">Control Structures <br>
+              Loops and Conditional Statements <br>
+              Basic Plots<br>
+              ggPlot <br>
+        </span>
+      </div>
+      <div class="w3-bar-item">
+        <span class="w3-medium">Week 5 :</span><br>
+        <span class="w3-text-grey">Linear Regression <br>
+              Multi-nominal linear regression <br>
+              Conditions  <br>
+              Multi-Collinearity <br>
+        </span>
+      </div>
+      <div class="w3-bar-item">
+        <span class="w3-medium">Week 6 :</span><br>
+        <span class="w3-text-grey">Logistic Regression <br>
+              Prediction,Accuracy <br>
+              Multi-Nominial Logistic Regression  <br>
+              Goodness of Fit <br>
+        </span>
+      </div>
+      <div class="w3-bar-item">
+        <span class="w3-medium">Week 7 :</span><br>
+        <span class="w3-text-grey">Big Data Basics <br>
+              RDD <br>
+              Spark context  <br>
+              SPARK SQL <br>
+        </span>
+    </li>
+  </div>
+  
+  
+  <!-- deeplearning -->
+  <div class="w3-container" id="deeplearning" style="margin-top:75px">
+    <h1 class="w3-xxlarge w3-text-purple"><b>Deep Learning</b></h1>
+    <hr style="width:50px;border:5px solid purple" class="w3-round">
+    <p>What we will cover</p>
+    <li class="w3-bar">
+      <div class="w3-bar-item">
+        <span class="w3-medium">Week 1 :</span><br>
+        <span class="w3-text-grey">Linear Algebra <br>
+              Matrices  <br>
+              Tensors  <br>
+              Calculus   <br>
+        </span>
+      </div>
+      <div class="w3-bar-item">
+        <span class="w3-medium">Week 2 :</span><br>
+        <span class="w3-text-grey">Machine Learning basics <br>
+              Information Theory <br>
+              Neurons <br>
+              Neural Network  <br>
+        </span>
+      </div>
+      <div class="w3-bar-item">
+        <span class="w3-medium">Week 3 :</span><br>
+        <span class="w3-text-grey">Forward /Backward Propagation  <br>
+              Optimization  <br>
+              Gradient Descent <br>
+              XOR in NN <br>
+        </span>
+      </div>
+      <div class="w3-bar-item">
+        <span class="w3-medium">Week 4 :</span><br>
+        <span class="w3-text-grey">Simple Linear Regression in NN <br>
+              Hidden Layers <br>
+              MLP <br>
+              MNIST <br>
+        </span>
+      </div>
+      <div class="w3-bar-item">
+        <span class="w3-medium">Week 5 :</span><br>
+        <span class="w3-text-grey"> Image Classification <br>
+        Convolutional Neural networks <br>
+        </span>
+      </div>
+      <div class="w3-bar-item">
+        <span class="w3-medium">Week 6 :</span><br>
+        <span class="w3-text-grey">Recurrent Neural networks <br>
+        </span>
+      </div>
+      <div class="w3-bar-item">
+        <span class="w3-medium">Week 7 :</span><br>
+        <span class="w3-text-grey">LSTMs <br>
+        </span>
+      </div>
+      <div class="w3-bar-item">
+        <span class="w3-medium">Week 8 :</span><br>
+        <span class="w3-text-grey">Tensor Flow <br>
+              KERAS <br>
+        </span>
+      </div>
+    </li>
+  </div>
+
+
+  
+  
+  
+  <!-- Contact -->
+  <div class="w3-center w3-padding-64" id="contact">
+    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Contact Us</span>
+  </div>
+
+  <form>
+  <button class="w3-btn w3-block w3-indigo w3-center-align" formaction="mailto:ThinkData.AI@outlook.com?Subject=Web%20Query">Mail Us</button>
+  </form>
+  <br>
+  <br>
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
