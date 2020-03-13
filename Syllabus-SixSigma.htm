@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>ThinkData.ai</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+.fa {cursor:pointer}
+</style>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-indigo w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:250px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <a href="https://thinkdata-ai.github.io/site/Courses.htm" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white"><h3 class="w3-padding-64"><b>ThinkData.ai</b></h3></a>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#whitebelt" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">White Belt</a> 
+    <a href="#yellowbelt" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Yellow Belt</a> 
+    <a href="#greenbelt" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Green Belt</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span>ThinkData.ai</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:280px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 class="w3-xxxlarge w3-text-purple"><b>Six Sigma Levels</b></h1>
+    <hr style="width:50px;border:5px solid purple" class="w3-round">
+  </div>
+  
+  <!-- whitebelt -->
+  <div class="w3-container" id="whitebelt" style="margin-top:75px">
+    <h1 class="w3-xxlarge w3-text-blue"><b>White Belt</b></h1>
+    <hr style="width:50px;border:5px solid blue" class="w3-round">
+    <p>This training is ideal for those who are unfamiliar with Six Sigma and want to learn more about what Six Sigma methodology is and how it can impact an organization.</p>
+    <p>
+     ✔ Introduction to Six Sigma  <br>
+     ✔ Six sigma history   <br>
+     ✔ Six Sigma benefits and how it solves the problems in an organization  <br>
+     ✔ Six Sigma philosophy  <br>
+     ✔ Introduction to Lean  <br>
+     ✔ Problem solving tools  <br>
+     ✔ Types of waste  <br>
+     ✔ 5 S   <br>
+     ✔ Visual management (Andon)  <br>
+     ✔ Standard Work Instruction  <br>
+     ✔ DMAIC vs DMADV  <br>
+     ✔ Different belts in Six Sigma   <br>
+    </p>
+  </div>
+  
+  <!-- yellowbelt -->
+  <div class="w3-container" id="yellowbelt" style="margin-top:75px">
+    <h1 class="w3-xxlarge w3-text-indigo"><b>Yellow Belt</b></h1>
+    <hr style="width:50px;border:5px solid blue" class="w3-round">
+    <p>Yellow Belt is ideal for professionals who want to act in a supportive role in Six Sigma projects within an organization or use the tools in their day-to-day work activities.</p>
+    <p>
+     ✔ Introduction to Yellow belt  <br>
+✔ Define   <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*  4 Quadrant Analysis  <br>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*  Project definition: A3  <br>
+✔ Measure & Map  <br>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*  Data Collection  <br>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*  Overall Equipment Effectiveness (OEE)  <br>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*  Current State Value Stream Map (VSM)  <br>
+✔ Analyze  <br>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*  Spaghetti Diagram  <br>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*  Fishbone Analysis  <br>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*  5-Whys  <br>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*  Failure Mode & Effects Analysis (FMEA)  <br>
+✔ Improve  <br>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*  Kaizen  <br>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*  Continuous Flow  <br>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*  Quick Preparations (SMED)  <br>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*  Total Productive Maintenance (TPM)  <br>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*  Kanban  <br>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*  Future Value Stream Map (VSM)  <br>
+✔ Control  <br>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*  Poka Yoke  <br>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*  Standard Work  <br>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*  Leader Standard Work  <br>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*  Kata  <br>
+    </p>
+  </div>
+
+  <!-- greenbelt -->
+  <div class="w3-container" id="greenbelt" style="margin-top:75px">
+    <h1 class="w3-xxlarge w3-text-purple"><b>Green Belt</b></h1>
+    <hr style="width:50px;border:5px solid blue" class="w3-round">
+    <p>Green Belt training will prepare you to work on Six Sigma projects within your organization with a fundamental understanding of all Six Sigma concepts and a focus on data collection and analysis. </p>
+    <p>
+•	Introduction to Green Belt  <br>
+•	Define Phase  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✔  Project Charter  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✔  Quality Function Deployment (QFD)  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✔  Kano Model  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✔  Needs Tree  <br>
+•	Measure and Map Phase  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✔  SIPOC Diagram  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✔  Basic Statistics  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✔  Histogram  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✔  Sampling  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✔  Measurement System Analysis (MSA)  <br>
+•	Analyze Phase  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✔  Process Capability  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✔  Process Performance  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✔  Cause-effect (CRT)  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✔  Correlation  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✔  Box-Plots  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✔  ANOVA (Variance Analysis)  <br>
+•	Improve Phase  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✔  Design of Experiments  <br>
+•	Control Phase  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✔  Statistical Process Control (SPC)  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✔  Control Plan  <br>
+
+    </p>
+  </div>
+  
+  
+  
+    </li>
+  </div>
+
+
+  
+  
+  
+  <!-- Contact -->
+  <div class="w3-center w3-padding-64" id="contact">
+    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Contact Us</span>
+  </div>
+
+  <form>
+  <button class="w3-btn w3-block w3-indigo w3-center-align" formaction="mailto:ThinkData.AI@outlook.com?Subject=Web%20Query">Mail Us</button>
+  </form>
+  <br>
+  <br>
+<!-- End page content -->
+
+<!-- Footer -->
+
+<footer class="w3-container w3-padding-16  w3-center">
+  <a href="#" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+</footer>
+
+
+</div>
+
+
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
